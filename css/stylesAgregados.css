@@ -1,0 +1,359 @@
+
+* {
+    box-sizing: border-box !important;
+}
+.circulo-stock{
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px; 
+    border-radius: 100%;
+    top:5px;
+    right: 5px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo-stock:hover{
+    background-color: lightpink;
+    
+}
+.item-cant{
+    color: black;
+
+}
+.card-b-margin{
+    padding: 10px !important;
+    /* background-color: blue;  */
+}
+.detail-product{
+ /* display: flex;
+ justify-content: flex-start; */
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-template-columns: 20% 40% 40%;
+ grid-template-rows: 40% 60%;
+ justify-items: flex-start;
+}
+.detail-product h4{
+    /* display: inline-block; */
+    
+    /* background-color: red; */
+    margin: 0;
+    grid-column: 1/2;
+    padding: 0;
+
+}
+.detail-product p{
+    /* background-color: yellow; */
+    margin: 0;
+    padding-top: 5px;
+    grid-column: 2/4;
+    align-self:center ;
+
+}
+
+.detail-product h5{
+    /* display: inline-block; */
+    /* background-color: green; */
+    grid-column: 1/4;
+    margin-top: 5px;
+    /* justify-self: center; */
+
+}
+/* .card-body{
+    background-color: lightslategray;
+} */
+
+
+
+.seleccion:hover{
+ /* background-color: lightblue; */
+ box-shadow: 5px 5px 20px rgb(0,0,0,0.3);
+ transform: translateY(-3%);
+ transition: all 400ms ease;
+ /* ('.card-f-ocultar'){visibility: none;} */
+}
+/* .card-f-ocultar{
+    visibility: hidden;
+} */
+
+.banner_main{
+    display: block;
+}
+
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.d_flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+
+}
+.padding_right1 {
+    padding-right: 0;
+}
+.text-img {
+    height: 750px;
+    background: linear-gradient(to bottom, #0aec98 0%, #2bcc91 100%);
+    border-radius: 322px 0px 0px 380px;
+    padding: 132px 20px 0px 50px;
+}
+.text-bg {
+    text-align: left;
+    max-width: 429px;
+    width: 100%;
+    float: right;
+    padding-top: 190px;
+    padding-bottom: 50px;
+}
+.text-bg h1 {
+    color: #2d2c2c;
+    font-size: 67px;
+    line-height: 90px;
+    padding-bottom: 70px;
+    font-weight: bold;
+    color: white;
+}
+.text-bg strong {
+    font-size: 27px;
+    line-height: 35px;
+    color: white;
+}
+h1 {
+    font-size: 24px;
+    font-family: 'Baloo Chettan', cursive;
+}
+b, strong {
+    font-weight: bolder;
+}
+.text-bg span {
+    font-family: 'Baloo Chettan', cursive;
+    color: #2bcc91;
+    font-size: 40px;
+    line-height: 77px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    display: block;
+}
+
+@media (min-width: 768px) { 
+.col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+.text-img h3 {
+    top: 387px;
+    position: absolute;
+    align-items: center;
+    left: -14px;
+    background: #000;
+    width: 60px;
+    height: -1px;
+    border-radius: 72px;
+    color: #fff;
+    padding: 7px 12px;
+    font-size: 21px;
+    border: #2bcc91 solid 7px;
+}
+.text-img figure img {
+    width: 50%;
+}
+
+
+#template-footer{
+    margin: 2vw 2vw;
+}
+
+.empty-cart{
+    text-align: center;
+    color:#c55a5a;
+}
+
+.hide{
+    display: none;
+}
+
+.footer {
+    border-top: #000 solid 1px;
+    font-family: Poppins;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.cont {
+    text-align: left;
+}
+.cont h3 {
+    color: #0c0c0e;
+    font-size: 37px;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    font-size: bold;
+}
+h1, h2, h3 {
+    font-family: 'Baloo Chettan',cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111;
+    margin: 0;
+}
+.multi {
+    color: #2bcc91;
+    font-weight: bold;
+    font-size: 40px;
+}
+@media (min-width: 768px) { 
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+.copyright {
+    margin-top: 43px;
+    padding: 20px 0;
+    background-color: #23262d;
+}
+@media (min-width: 768px) { 
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
+/* Cambios por Samuel apartir de aqui */
+
+
+.cart-shop{
+    background-color: #ffffff;
+    filter: blur(10px);
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 100%;
+    filter: drop-shadow(16px 16px 16px rgb(28, 74, 33));
+    
+    position: fixed;
+    z-index: 1;
+
+}
+
+.table-scroll{
+    height: 60vh;
+    overflow-y: scroll;
+    display: none;
+
+}
+
+.C-Cart{
+    
+    display: block;
+    justify-content: center;
+    display: none;
+    cursor:pointer;
+    color:#000;
+    font-weight: bold;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+}
+
+.C-Cart:hover{
+    opacity: 1;
+}
+
+.O-Cart{
+    padding: 0 0 0 40vw;
+    display: block;
+    justify-content: center;
+}
+
+
+
+
+/* Agredado mas estilos */
+
+#demo{
+    position: relative;
+}
+
+.inner-bar{
+    position:relative;
+}
+
+.inner-boton{
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(#242424, #646464);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    left: -25px;
+    cursor: pointer;
+}

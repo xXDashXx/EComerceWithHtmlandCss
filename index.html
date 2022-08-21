@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta property="og:image" content="./assets/ecommerce.jpg">
+    <meta property="og:description"
+        content="Este es el Proyecto de un Ecommerce hecho por el grupo 1 de la Generacion 16 de Academlo.">
+    <meta property="og:title" content="Ecommerce Grupo 1 Generacion 16">
+    <title>Grupo 1 - Ecommerce</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- estylos agregados -->
+    <link rel="stylesheet" href="css/stylesAgregados.css">
+    <!-- iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body id="Cuerpo">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Acerca</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#!">Todos los Productos</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#!">Lo mas Populares</a></li>
+                            <li><a class="dropdown-item" href="#!">Nuevos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+               <!--  <form class="d-flex">
+                    <a href="#template-footer" class="btn btn-outline-dark">
+                        <i class="bi-cart-fill me-1"></i>
+                        Carrito
+                        <span id="CartCant" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </a>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <section class="banner_main">
+            <div class="container-fluid">
+                <div class="row d_flex">
+                    <div class="col-md-5">
+                        <div class="text-bg">
+                            <h1>Tienda Online <br>de Cómputo en General</h1>
+                            <strong>Somos Distribuidores Autorizados</strong>
+                            <span>Cotize con Nosotros</span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 padding_right1">
+                        <div class="text-img">
+                            <figure><img src="./assets/img/shopIcon.png" /></figure>
+                            <h3>01</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- Section-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5 ">
+            <div id="LoyoutItems"
+                class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+                <div class="col mb-5">
+                    <!-- agregado de la clase seleccion -->
+                    <div class="card h-100 seleccion">
+                        <!-- agregando la bolita de stock -->
+                        <div class="circulo-stock">
+                            <div id="ItemCant" class="item-cant">99</div>
+                        </div>
+                        <!-- ---------- -->
+                        <!-- Product image-->
+                        <img class="card-img-top" src="assets/laptop.jpg" alt="..." />
+
+
+                        <!-- Product details-->
+                        <!-- agregado de la clase margin -->
+                        <div class="card-body p-4 card-b-margin">
+                            <!-- agregado clase detalle-producto -->
+                            <div class="text-center detail-product ">
+                                <!-- Product name-->
+                                <h4>10$</h4>
+                                <p>- stock: 99</p>
+                                <h5 class="fw-bolder">Nombre del Producto</h5>
+                                <!-- Product price-->
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <!-- agregado de la clase card-f-ocultar -->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent card-f-ocultar">
+                            <div class="text-center">
+                                <a class="btn btn-outline-dark mt-auto" href="#"><i class='bx bxs-cart-add'></i> Agregar</a>
+                                <!-- <a href=""></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--- Seccion (div linea 136 - 183) con cambios por Samuel, basicamente nuevos id y clases-->
+
+    <div id="cart-shop" class="cart-shop">
+        <!-- Añadi id "cart-shop" , clase cart-shop-->
+        <div class="inner-bar">
+
+            <div class="inner-boton"></div>
+    
+            <div class="my-4 mx-4">
+
+                <!---Añadi el form aqui y lo comente en la parte de la navegacion-->
+                <form id="demo" class="d-flex cart-deployed">
+                    <!-- Añadi id "demo" , clase cart deployed-->
+                    <a href="#template-footer" class="btn btn-outline-dark">
+                        <i class="bi-cart-fill me-1"></i>
+                        Products
+                        <span id="CartCant" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </a>
+                    <!-- Añadi estos dos span a continuacion, close-cart and open-cart-->
+                    <span id="CLOSE_CART" class="C-Cart">╳</span>
+                    <span id="open_CART" class="O-Cart">︽</span>
+                </form>
+    
+            <!-- Añadi clase "table-scroll"-->
+                <div id="myDIV" class="table-scroll">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Item</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Action</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">SubTotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="items">
+    
+                        </tbody>
+                        <tfoot id="footer-carrito">
+                            <tr>
+                                <td colspan="6">
+                                    <h3 class="empty-cart">Empty Cart!!!</h3>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div id="template-footer">
+            <h3><strong>Total $</strong> <span id="TotalCart">0.00</span></h3>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">vaciar todo</button>
+            <button class="btn btn-warning btn-sm" id="BtnPaid"><strong>PAGAR</strong></button>
+    
+        </div>
+    </div>
+
+
+    <div class="container">
+        <button id="BtnModal" type="button" class="btn btn-primary hide" data-bs-toggle="modal" data-bs-target="#ModalPaid"></button>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalPaid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Ticket 000000</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Qty</th>
+                                    <th>Price</th>
+                                    <th>Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ModalBodyDetail"></tbody>
+                        </table>
+                        <div class="col-md-12">
+                            <h3><strong>Total $</strong> <span id="ModalTotal">0.00</span></h3>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                        <button id="BtnModalPaidFactura" type="button" class="btn btn-primary" data-bs-dismiss="modal"><strong>OK</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Footer-->
+    <footer>
+        <div  class="footer">
+           <div  class="container">
+              <div class="row">
+                 <div class="col-md-6">
+                    <div class="cont">
+                       <h3> <strong class="multi"> PcCoint</strong><br>
+                          Los Mejores Precios en cómputo
+                       </h3>
+                    </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="cont_call">
+                       <h3> <strong class="multi"> Llame Ahora</strong><br>
+                          (+1) 12345667890
+                       </h3>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="copyright">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-md-12">
+                       <p>© 2022 All Rights Reserved. Design by Grupo 1</a></p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+[
+    {
+        "Id":"1",
+        "Name":"Laptop Lenovo",
+        "Price": 20000,
+        "ImgRoot": "https://es.digitaltrends.com/wp-content/uploads/2022/06/surface-laptop-go-2-feat.jpg?resize=625%2C417&p=1",
+        "Stock": 10
+    },
+    {
+        "Id":"2",
+        "Name":"Mouse Corsair",
+        "Price": 1200,
+        "ImgRoot": "https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/l/2/l20m01.jpg",
+        "Stock": 10
+    },
+    {
+        "Id":"3",
+        "Name":"Teclado HP",
+        "Price": 2500,
+        "ImgRoot": "https://m.media-amazon.com/images/I/81CxvebthLS._AC_SX355_.jpg",
+        "Stock": 10
+    },
+    {
+        "Id":"4",
+        "Name":"Motherboard Asus",
+        "Price": 12000,
+        "ImgRoot": "https://m.media-amazon.com/images/I/61mngTZGfiL._AC_SY355_.jpg",
+        "Stock": 10
+    },
+    {
+        "Id":"5",
+        "Name":"Monitor Samsung",
+        "Price": 8500,
+        "ImgRoot": "https://m.media-amazon.com/images/I/61SQz8S+fEL._AC_SY355_.jpg",
+        "Stock": 10
+    },
+    {
+        "Id":"6",
+        "Name":"Disco duro solido SSD",
+        "Price": 4500,
+        "ImgRoot": "https://m.media-amazon.com/images/I/61Sm1xzjG7L._AC_SY355_.jpg",
+        "Stock": 10
+    },
+    {
+        "Id":"7",
+        "Name":"Memoria Ram DDR4",
+        "Price": 3500,
+        "ImgRoot": "https://m.media-amazon.com/images/I/61UwHpj3J4L._AC_SX355_PIbundle-2,TopRight,0,0_SH20_.jpg",
+        "Stock": 10
+    }
+]
